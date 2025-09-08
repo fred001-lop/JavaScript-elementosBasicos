@@ -1,4 +1,4 @@
-let inp = 22;
+let inp = 64;
 let wind = parseInt(inp);
 let condition = "sunset";
 
