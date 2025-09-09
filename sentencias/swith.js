@@ -4,21 +4,21 @@ numGrade = parseInt(numGrade);
 
 let letterGrade;
 
-switch(numGrade){
+switch(true){
 
-    case numGrade => 90 && numGrade <= 100:
+    case numGrade >= 90 && numGrade <= 100:
         letterGrade = "A";
         break;
-    case numGrade => 80 && numGrade <= 89:
+    case numGrade >= 80 && numGrade <= 89:
         letterGrade = "B";
         break;
-    case numGrade => 70 && numGrade <= 79:
+    case numGrade >= 70 && numGrade <= 79:
         letterGrade = "C";
         break;
-    case numGrade => 60 && numGrade <= 69:
+    case numGrade >= 60 && numGrade <= 69:
         letterGrade = "D";
         break;
-    case numGrade => 0 && numGrade <= 59:
+    case numGrade >= 0 && numGrade <= 59:
         letterGrade = "F";
         break;
 
